@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/Projects/mangastore.css">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-6">
+                    <img id="logo" src="/Projects/assets/mangastore.webp" alt="" height="60px" width="80px">
+                    <h1 style="margin-left: 90px; margin-top: -55px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">MANGA STORE</h1>
+                </div>
+                <div class="col-6">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">A Store</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                
+                                <!-- Button trigger modal -->
+                                    <button class="button" type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Register
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                         <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                 <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                        <div class="modal-body">
+                                            <form action="" autocomplete>
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="name"><label for="username">Username</label></td>
+                                                            <td><input type="text" id="username" autofocus></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name"><label for="pass">Password</label></td>
+                                                            <td><input type="password" id="pass"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name"><label for="cpass">Conform Password</label></td>
+                                                            <td><input type="password" id="cpass"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name"><label for="email">e-mail</label></td>
+                                                            <td><input type="email" id="email"></td>
+                                                        </tr>
+                                                </table>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Register</button>
+                                         </div>
+                                            </div>
+                                         </div>
+                                    </div>
+
+                                    <!-- Button trigger modal -->
+                                    <button class="button" type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal1">Login
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                             <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                     <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                            <div class="modal-body">
+                                                <form action="" autocomplete>
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="name"><label for="username">Username</label></td>
+                                                                <td><input type="text" id="username" autofocus></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="name"><label for="pass">Password</label></td>
+                                                                <td><input type="password" id="pass"></td>
+                                                            </tr>
+                                                    </table>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Login</button>
+                                             </div>
+                                                </div>
+                                             </div>
+                                        </div>
+
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a id="cat" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Category
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#New Arrivals">New Arrivals</a></li> 
+                                  <li><a class="dropdown-item" href="#Seinan">Seinan</a></li>
+                                  <li><a class="dropdown-item" href="#Shonen">Shonen</a></li>
+                                  <li><a class="dropdown-item" href="#Rom-com">Rom-com</a></li>
+                                  <li><a class="dropdown-item" href="#most-sold">most-sold</a></li> 
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/Projects/assets/vin.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="840px" src="/Projects/assets/wp11364129-manga-goku-wallpapers.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/Projects/assets/wp11914618-one-piece-manga-pc-wallpapers.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="842px" src="/Projects/assets/wp9200831-berserk-manga-wallpapers.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="842px" src="/Projects/assets/wano.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+
+    <!-- NEW ARRIVALS -->
+<div class="container-fluid">
+  <div class="row">
+
+      <h1 class="text-center border border-1 dark bg-light p-3">New Arrivals</h1>
+
+       <!-- for break -->
+<div class="container-fluid">
+<div class="row">
+  <br>
+</div>
+</div>
+      
+      <div class="col-1" id="New Arrivals"></div>
+
+      <div class="card1 col-4 border border-3" style="width: 18rem;">
+          <img src="/Projects/assets/spymanga.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="spymanga" >
+          <div class="card-body">
+            <p class="card-text">A spy, an assassin, and a telepath fake a family for a mission.</p>
+            <button type="button" class="btn btn-secondary">Add to Cart</button>
+            <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+
+          </div>
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+          <img src="/Projects/assets/opmanga.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="opmanga"> 
+          <div class="card-body">
+            <p class="card-text">A pirate with a rubber body sails to find the legendary One Piece.</p>
+            <button type="button" class="btn btn-secondary">Add to Cart</button>
+            <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+          </div>
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;" id="suk" class="image">
+          <img src="/Projects/assets/jjk manga.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="jjk" >
+          <div class="card-body">
+            <p class="card-text">Where cursed energy meets unstoppable sorcery in a battle for survival!</p>
+            <button type="button" class="btn btn-secondary">Add to Cart</button>
+            <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div><br></div>
+          </div>
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;" id="suk" class="image">
+          <img src="/Projects/assets/jojomanga.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="jojo" >
+          <div class="card-body">
+            <p class="card-text">A generational saga of stylish poses, epic battles, and insane Stand abilities!</p>
+            <button type="button" class="btn btn-secondary">Add to Cart</button>
+            <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+          </div>
+        </div>
+
+        <div class="col-1"></div>
+
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;" id="suk" class="image">
+          <img src="/Projects/assets/naruto.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="naruto" >
+          <div class="card-body">
+            <p class="card-text">A journey from outcast to Hokage, fueled by guts, bonds, and an unbreakable ninja way</p>
+            <button type="button" class="btn btn-secondary">Add to Cart</button>
+            <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+          </div>
+        </div>
+
+        <div class="col-1"></div>
+
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;" id="suk" class="image">
+          <img src="/Projects/assets/bleachmanga.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="bleach" >
+          <div class="card-body">
+            <p class="card-text">Soul Reapers, epic sword battles, and a destiny that transcends life and death!</p>
+            <button type="button" class="btn btn-secondary">Add to Cart</button>
+            <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+          </div>
+        </div>
+
+  </div>
+</div>
+<!-- for break -->
+<div class="container-fluid">
+<div class="row">
+  <br>
+  <br>
+</div>
+</div>
+
+<!-- seinan list -->
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="text-center border border-1 dark bg-light p-3" id="Seinan">Seinan Manga</h1>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- 1st card -->
+    <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/berserk.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="berserk">
+            <div class="card-body">
+              <p class="card-text">A brutal tale of fate, vengeance, and the relentless struggle against darkness.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+<!-- 2nd card -->
+          <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/vagabond.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="vagabond">
+            <div class="card-body">
+              <p class="card-text">The philosophical journey of a swordsman seeking strength, purpose, and inner peace.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+<!-- 3rd card -->
+          <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/climber.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="climber" >
+            <div class="card-body">
+              <p class="card-text">A solitary ascent through ice, rock, and the depths of the human soul.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span class="price"><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+  </div>
+</div>
+
+<!-- for break -->
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+<!-- shonen-list -->
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="text-center border border-1 dark bg-light p-3" id="Shonen">Shonen Manga</h1>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- 1st card -->
+    <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/deathnote.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="deathnote">
+            <div class="card-body">
+              <p class="card-text">A battle of wits between justice and power, where a single name can decide fate.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span  class="price"><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+<!-- 2nd card -->
+          <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/zom100.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="zom100" >
+            <div class="card-body">
+              <p class="card-text">Turning a zombie apocalypse into the ultimate bucket list adventure!</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span  class="price"><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+<!-- 3rd card -->
+          <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/tokyorev.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="tokyorev">
+            <div class="card-body">
+              <p class="card-text">A time-traveling delinquent fights to rewrite the past and save his future.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span class="price" ><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+  </div>
+</div>
+
+<!-- for break -->
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+
+<!-- Rom-com-list -->
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="text-center border border-1 dark bg-light p-3" id="Rom-com"><a href="#Home"></a>Rom-com</h1>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <!-- 1st card -->
+    <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/suzume.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="suzume">
+            <div class="card-body">
+              <p class="card-text">A breathtaking journey of love, loss, and closing the doors to the past.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span class="price" ><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+<!-- 2nd card -->
+          <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/iweyp.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." id="iweyp">
+            <div class="card-body">
+              <p class="card-text">A heartfelt tale of fleeting moments, unexpected bonds, and the beauty of life.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span class="price" ><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+<!-- 3rd card -->
+          <div class="col-1"></div>
+
+        <div class="card1 col-4 border border-3" style="width: 18rem;">
+            <img src="/Projects/assets/yourname.jpg" class="card-img-top rounded float-start rounded float-end" alt="..." 
+            id="yourname">
+            <div class="card-body">
+              <p class="card-text">A breathtaking tale of love, fate, and a connection that transcends time.</p>
+              <button type="button" class="btn btn-secondary">Add to Cart</button>
+              <span class="price" ><strike>₹250.0</strike> ₹100.0</span>
+
+            </div>
+          </div>
+  </div>
+</div>
+
+<!-- for break -->
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+<!-- for break -->
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+    <!-- heading -->
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="text-center border border-1 dark bg-light p-3" id="most-sold">Most Sold Manga of 2024</h1> 
+  </div>
+</div>
+
+<!-- for break -->
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="card2 mb-3">
+      <img src="/Projects/assets/wano.png" class="card-img-top" alt="..." height="550px" style="margin-top: 10px;">
+      <div class="card-body">
+        <img src="/Projects/assets/optitle-removebg-preview.png" alt="" style="margin-top: -550px; margin-left: 450px; height: 100px;">
+       <!-- <center><h3 class="card-title" style="margin-top:-15px;">One Piece Wano Arc</h3></center>  -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <button type="button" class="btn btn-secondary" id="wanobtn">Add to Cart</button>
+      </div>
+    </div>
+
+   <!-- for break -->
+<div class="container-fluid">
+  <div class="row">
+    <br>
+    <br>
+  </div>
+</div>
+
+<div class="card2 mb-3">
+  <img src="/Projects/assets/soloban.jpg" class="card-img-top" alt="..." height="550px" style="margin-top: 10px;">
+  <div class="card-body">
+    <img src="/Projects/assets/solotitle-removebg-preview.png" alt="" style="margin-top: -550px; margin-left: 350px; height: 300px;">
+    
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <button type="button" class="btn btn-secondary" id="wanobtn">Add to Cart</button>
+  </div>
+</div>
+
+   <!-- for break -->
+   <div class="container-fluid">
+    <div class="row">
+      <br>
+      <br>
+    </div>
+  </div>
+
+<div class="card2 mb-3">
+  <img src="/Projects/assets/sakamotodays.jpg" class="card-img-top" alt="..." height="550px" style="margin-top: 10px; width: 1240px;">
+  <div class="card-body">
+    <img src="/Projects/assets/sakamoto_days_logo_800w-removebg-preview.png" alt="" style="margin-top: -550px; margin-left:400px; height: 100px;">
+   <!-- <center><h3 class="card-title" style="margin-top  : -15px;">JeJu Island Raid Arc</h3></center>  -->
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <button type="button" class="btn btn-secondary" id="wanobtn">Add to Cart</button>
+  </div>
+</div>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-sm-12"><br><br></div>
+        </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+            <div class="col-6"  >
+                <a href="#" id="ao"><img id="logo" src="/Projects/assets/pngtree-straw-hat-cartoon-illustration-png-image_6562738.png" alt="" height="60px" width="80px" style="margin-top: -230px; margin-left: 50px;"></a>
+            </div>
+            <div class="col-12" style="margin-top: -80px;;">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 border border">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">A Store</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            
+                            <!-- Button trigger modal -->
+                                <button class="button" type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Register
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                     <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                             <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                    <div class="modal-body">
+                                        <form action="" autocomplete>
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="name"><label for="username">Username</label></td>
+                                                        <td><input type="text" id="username" autofocus></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="name"><label for="pass">Password</label></td>
+                                                        <td><input type="password" id="pass"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="name"><label for="cpass">Conform Password</label></td>
+                                                        <td><input type="password" id="cpass"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="name"><label for="email">e-mail</label></td>
+                                                        <td><input type="email" id="email"></td>
+                                                    </tr>
+                                            </table>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Register</button>
+                                     </div>
+                                        </div>
+                                     </div>
+                                </div>
+
+                                <!-- Button trigger modal -->
+                                <button class="button" type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal1">Login
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                         <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                 <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                        <div class="modal-body">
+                                            <form action="" autocomplete>
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="name"><label for="username">Username</label></td>
+                                                            <td><input type="text" id="username" autofocus></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="name"><label for="pass">Password</label></td>
+                                                            <td><input type="password" id="pass"></td>
+                                                        </tr>
+                                                </table>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Login</button>
+                                         </div>
+                                            </div>
+                                         </div>
+                                    </div>
+
+                          </li>
+                          <!-- Button trigger modal -->
+                          <button class="button" type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal2">Support
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                     <h5 class="modal-title" id="exampleModalLabel">Ticket Support</h5>
+                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                            <div class="modal-body">
+                                <form action="" autocomplete>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="name"><label for="username">Username</label></td>
+                                                <td><input type="text" id="username" autofocus></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="name"><label for="des">Description</label></td>
+                                                <td><textarea name="text" id="des" rows="18" cols="40"></textarea></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="name"><label for="email">e-mail</label></td>
+                                                <td><input type="email" id="email"></td>
+                                            </tr>
+                                    </table>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send</button>
+                             </div>
+                                </div>
+                             </div>
+                        </div>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+    </div>
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

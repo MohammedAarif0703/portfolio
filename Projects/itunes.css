@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header{
+    height: 40px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 1500px;
+  }
+  
+  .items{
+      
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    width: 100px;
+    color: #E8EEEE;          
+  }
+  
+  .items:hover{
+    background-color:#4a4a4a ;
+    height:45px ;
+  
+  }
+  main{
+  
+     height: 150vh;
+     background-size: 1500px;
+     background-image: url(/Projects/assets/showcase.jpeg);
+     display:flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content:center;
+     color: #FFFFFF;
+     gap: 30px;
+  
+  }
+  
+  #my1{ 
+    font-size:50px;
+  } 
+  
+  #my2{
+    font-size:30px;
+  }
+  
+  #my3{
+    font-size: 20px;
+    line-height: 30px;
+    width: 1100px;
+    text-align: center;
+  } 
+  
+  #music{
+    background-color: #252529;
+    height: 230vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 100px;
+    color: #E8EEEE ;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  p{
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  #music1{
+     font-size: 30px;
+     font-weight: 800;
+  
+     
+  }
+  
+  #music2{
+  
+    font-size: 30px;
+    font-weight: 800;
+  }
+  
+  #music3{
+  
+  
+    font-size: 20px;
+    line-height: 30px;
+    width: 1200px;
+    padding-bottom: 20px;
+  }
+  
+  #music4{
+    width: 1000px;
+    height: 50px;
+    line-height: 40px;
+  }
+  #but{
+  
+  background-color: #B90415;
+  color: #FFFFFF;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+  #video{
+    height: 240vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    /* gap:20px; */
+  
+  }
+  
+  #video1{
+    color: #333333;
+    height: 200px;
+    line-height: 100px;
+    text-align: center;
+  }
+  
+  #video2{
+    color: #333333;
+    width: 1200px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 20px;
+    
+  }
+  
+  #video3{
+  
+    background-color: #103063;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+  
+    
+  }
+  
+  #enter{
+    background-image: url(/Projects/assets/section-bg.jpeg);
+    height: 80vh;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:50px;
+  
+  }
+  
+  
+  #enter2{
+    line-height: 35px;
+    text-align: center;
+    width: 1200px;
+  
+  }
+  
+  #gifts{
+  
+    padding-top: 25px;
+    height: 70vh;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  
+  }
+  
+  #giftcon{
+  
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  #gift3{
+  
+  
+  width: 470px;
+  line-height: 20px;
+  font-size:15px ;
+  
+  }
+  
+  #gift4{
+    font-size:17px ;
+  }
+  
+  #redeem{
+    color: #103063;
+    text-decoration: none;
+  }
+  
+  #about{
+    display: flex;
+    height: 40vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #252529;
+    color: #FFFFFF;
+    line-height: 30px;
+  }
+  
+  .cartline{
+    text-align: center;
+    position: relative;
+  }
+  
+  .cartline::before{
+    content: "";
+    width: 170px;
+    background-color:white;
+    height: 1px;
+    position: absolute;
+    bottom: -1px;
+  
+  }
+  
+  footer{
+    text-align: center;
+    height: 80px;
+    line-height: 60px;
+    color: white;
+    background-color: #4a4a4a;
+  }
